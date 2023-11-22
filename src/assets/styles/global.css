@@ -1,0 +1,94 @@
+@font-face {
+    font-family: F-Heavy;
+    src: url(./../fonts/FuturaHeavy.ttf);
+}
+@font-face {
+    font-family: F-Med;
+    src: url(./../fonts/futuramedium.ttf);
+}
+@font-face {
+    font-family: F-Typo;
+    src: url(./../fonts/TypoGraphica.ttf);
+}
+
+:root{
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+
+    --orange: blue;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: F-Med;
+    color: inherit;
+}
+
+body{
+    background: black;
+    color: white;
+
+}
+
+
+p{
+    font-size: 20px;
+    line-height: 30px;
+}
+h1{
+    font-family: F-Typo;
+    font-weight: 100;
+}
+h2{
+    font-size: 7rem;
+    font-family: F-Med;
+}
+h3{
+    font-size: 40px;
+    font-family: F-Typo;
+    font-weight: 100;
+}
+img{
+    width: 100%;
+}
+
+section{
+    margin: 0 60px;
+}
+button{
+    font-size: 18px;
+}
+
+
+
+.orange{
+    color: rgb(222, 104, 14);
+}
+.green{
+    color: #0EDE7A;
+}
+.purple{
+    color: #FF2CF7;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    position: fixed;
+    left: 0;
+}
+::-webkit-scrollbar-track{
+    background: rgba(128, 128, 128, 0.116);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(222, 104, 14);
+    border-radius: 100px;
+}
+
+.eye{
+     height: 100vh;
+     width: 100%;
+     position: fixed;
+     z-index: 9;
+     background: black;
+}

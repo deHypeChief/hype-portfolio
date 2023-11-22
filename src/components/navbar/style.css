@@ -1,0 +1,19 @@
+.Navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(40px);
+}
+.logo{
+    width: 90px;
+    height: 40px;
+    zoom: 60%;
+}
+.navList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 20px 60px 20px;
+}
